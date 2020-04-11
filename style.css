@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&display=swap');
 
 /* Navbar */
 
@@ -18,9 +19,7 @@ nav {
 }
 
 label.logo {
-  color: black;
-  font-size: 35px;
-  line-height: 100px;
+  line-height: 106px;
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bold;
@@ -38,10 +37,10 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
-  font-size: 17px;
+  color: #540606;
+  font-size: 20px;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   padding: 7px 13px;
   border-radius: 3px;
@@ -49,13 +48,12 @@ nav ul li a {
 }
 
 a.active,a:hover {
-  background: lightgray;
-  transition: .5s,
+  color: #BA5000;
 }
 
 .checkbtn {
   font-size: 30px;
-  color:black;
+  color: #540606;
   float: right;
   line-height: 80px;
   margin-right: 40px;
@@ -70,12 +68,13 @@ a.active,a:hover {
 @media (max-width: 952px){
   label.logo{
     width: 40px;
+    line-height: 105px;
     height: 100%;
-    font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 
   }
+
   nav ul li a {
     font-size: 16px;
   }
@@ -121,86 +120,107 @@ a.active,a:hover {
   font-size: 550%;
   top: 68%;
   width: 100%;
-  text-transform: uppercase;
   text-align: center;
   letter-spacing: 8px;
   text-shadow: 0 0 10px #000;
 }
 
 .homepage {
-  background: url('./img/work/106.jpg');
+  background: url('./img/work/48.jpg');
   background-size: cover;
   background-position: center;
-  height: calc(110vh - 80px);
+  height: 100vh;
 }
 
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
   line-height: 180%;
   color: black;
-  /* text-align: center; */
 }
 
 .parallax1 {
   background: url('./img/work/118.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax2 {
 background: url('./img/work/64.jpg');
 min-height: 100%;
+background-size: cover;
+background-position: center;
 }
 
 .parallax3 {
   background: url('./img/work/87.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax4 {
   background: url('./img/work/88.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax5 {
   background: url('./img/work/108.jpg');
   min-height: 60%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax6 {
   background: url('./img/work/51.jpg');
   min-height: 60%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax7 {
   background: url('./img/work/48.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax8 {
   background: url('./img/work/115.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax9 {
   background: url('./img/work/83.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax10 {
   background: url('./img/work/100.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax11 {
   background: url('./img/work/104.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax12 {
   background: url('./img/work/70.jpg');
   min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
@@ -219,6 +239,7 @@ min-height: 100%;
   width: 100%;
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Lato', sans-serif;
   letter-spacing: 8px;
   text-shadow: 0 0 10px #000;
 }
@@ -230,6 +251,7 @@ min-height: 100%;
   color: #ffffff;
   font-size: 250%;
   text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   letter-spacing: 5px;
   text-shadow: 0 0 10px #000;
@@ -262,6 +284,12 @@ min-height: 100%;
   width: 50%;
   padding: 0 7%;
   text-align: left;
+  font-family:'Open Sans', sans-serif;
+}
+
+.two-col h1 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
 }
 
 section {
@@ -274,6 +302,8 @@ section {
 .dark {
   overflow: auto;
   padding: 45px 25px;
+  font-family:'Open Sans', sans-serif;
+
 }
 
 .two-column {
@@ -289,7 +319,7 @@ section {
   width: 100%;
   display: block;
   overflow: hidden;
-  padding: 50px 0;
+  padding: 30px 0;
   box-sizing: border-box;
   background-color: #18181a;
 }
@@ -309,7 +339,7 @@ section {
 }
 
 .inner_footer .logo_container img {
-  width: 250px;
+  width: 175px;
   height: auto;
 }
 
@@ -325,7 +355,8 @@ section {
 }
 
 .inner_footer .footer_third h1 {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
   font-size: 22px;
   color:#ffffff;
   display: block;
@@ -334,8 +365,8 @@ section {
 }
 
 .inner_footer .footer_third a {
-  font-family: sans-serif;
-  font-size: 18px;
+  font-family:'Open Sans', sans-serif;
+  font-size: 15px;
   color: #ffffff;
   display: block;
   font-weight: 200;
@@ -346,18 +377,8 @@ section {
 .inner_footer .footer_third li {
   display: inline-block;
   padding: 0 5px;
-  font-size: 20px;;
-  font-family: sans-serif;
-}
-
-.inner_footer .footer_third span {
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 200;
-  display: block;
-  width: 100%;
-  padding-top: 20px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media(max-width: 800px) {
@@ -382,7 +403,7 @@ section {
     width: 100%;
     margin-bottom: 30px;
   }
-} 
+}
 
 /* iPad 1024 x 768 */
 
@@ -418,7 +439,7 @@ section {
   height: 100%;
   display: block;
   }
-}
+} */
 
 /* Mobile */
 /* Galaxy S9/S9+ 360 x 740 */
@@ -488,7 +509,7 @@ section {
     width: 100%;
     padding-top: 20px;
   }
-}
+} 
 
 /**** Footer ENDS ****/
 /**** About Media Queries BEGINS ****/
@@ -500,6 +521,14 @@ section {
 /* iPhone X/XS 375 x 812 */
 
 @media only screen and (max-width: 812px) and (min-width: 360px) {
+
+  .homepage {
+    background: url('./img/work/48.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
   .heading {
     font-size: 250%;
   }

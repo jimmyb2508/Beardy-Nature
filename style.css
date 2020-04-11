@@ -319,7 +319,7 @@ section {
   width: 100%;
   display: block;
   overflow: hidden;
-  padding: 30px 0;
+  padding: 60px 0;
   box-sizing: border-box;
   background-color: #18181a;
 }
@@ -357,7 +357,7 @@ section {
 .inner_footer .footer_third h1 {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 25px;
   color:#ffffff;
   display: block;
   width: 100%;
@@ -366,7 +366,7 @@ section {
 
 .inner_footer .footer_third a {
   font-family:'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #ffffff;
   display: block;
   font-weight: 200;
@@ -684,7 +684,25 @@ section {
     height: 100%;
     text-align: center;
   }
+
+  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
+
+@media only screen and (max-width: 1025px) and (min-width: 900px) and (orientation: portrait) {
+
+  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 
 @media only screen and (max-width: 1025px) and (min-width: 900px) and (orientation: portrait) {
   

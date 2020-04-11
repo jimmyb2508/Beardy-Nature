@@ -9,5 +9,5 @@ This is a portfolio design I created for my friend Chris Smith who is a wildlife
 For this project I used HTML & CSS
 
 # Credits
-All photography by Chris Smith © Beardy Nature
+All photography by Chris Smith © Beardy Nature  
 All Logo's by Phil Rennie @ http://www.pjrenniedesign.co.uk/

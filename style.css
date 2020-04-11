@@ -522,6 +522,11 @@ section {
 
 @media only screen and (max-width: 812px) and (min-width: 360px) {
 
+  .sp-page-builder .page-content #noparallax {
+    background-attachment: unset !important;
+    background-position: center top !important; 
+  }
+
   .homepage {
     background: url('./img/work/48.jpg');
     background-size: cover;
@@ -573,6 +578,11 @@ section {
 
 @media only screen and (max-width: 1025px) and (min-width: 900px) and (orientation: landscape) {
   
+  .sp-page-builder .page-content #noparallax {
+    background-attachment: unset !important;
+    background-position: center top !important; 
+  }
+
   .aboutpic {
     margin-top: 100px;
     width: 400px;

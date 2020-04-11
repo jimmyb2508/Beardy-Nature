@@ -522,16 +522,18 @@ section {
 
 @media only screen and (max-width: 812px) and (min-width: 360px) {
 
-  .sp-page-builder .page-content #noparallax {
-    background-attachment: unset !important;
-    background-position: center top !important; 
-  }
-
   .homepage {
     background: url('./img/work/48.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+  }
+
+  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .heading {
@@ -577,11 +579,6 @@ section {
 /* iPad 1024 x 768 */
 
 @media only screen and (max-width: 1025px) and (min-width: 900px) and (orientation: landscape) {
-  
-  .sp-page-builder .page-content #noparallax {
-    background-attachment: unset !important;
-    background-position: center top !important; 
-  }
 
   .aboutpic {
     margin-top: 100px;

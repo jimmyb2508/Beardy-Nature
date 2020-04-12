@@ -269,15 +269,20 @@ background-position: center;
 .aboutpictwo {
   width: 400px;
   height: 410px;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
 .aboutpicthree {
   width: 500px;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 30px;
+}
+
+.signature {
+  margin-top: 50px;
+  width: 300px;
 }
 
 .two-col {
@@ -286,6 +291,7 @@ background-position: center;
   padding: 0 7%;
   text-align: left;
   font-family:'Open Sans', sans-serif;
+  margin-top: 20px;
 }
 
 .two-col h1 {
@@ -656,7 +662,11 @@ section {
   .aboutpicthree {
     width: 250px;
     height: 100%;
+  }
+
+  .signature {
     margin-top: 50px;
+    width: 250px;
   }
 }
 
@@ -684,6 +694,11 @@ section {
     width: 420px;
     height: 100%;
     text-align: center;
+  }
+
+  .signature {
+    margin-top: 50px;
+    width: 300px;
   }
 
   .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
@@ -752,6 +767,11 @@ section {
     width: 420px;
     height: 100%;
     text-align: center;
+  }
+
+  .signature {
+    margin-top: 50px;
+    width: 300px;
   }
 }
 

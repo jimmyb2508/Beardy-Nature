@@ -126,7 +126,7 @@ a.active,a:hover {
 }
 
 .homepage {
-  background: url('./img/work/48.jpg');
+  background: url('../img/work/48.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(100%) calc(100%); 
@@ -141,84 +141,84 @@ body, html {
 }
 
 .parallax1 {
-  background: url('./img/work/131.jpg');
+  background: url('../img/work/131.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax2 {
-background: url('./img/work/64.jpg');
+background: url('../img/work/64.jpg');
 min-height: 100vh;
 background-size: cover;
 background-position: center;
 }
 
 .parallax3 {
-  background: url('./img/work/135.jpg');
+  background: url('../img/work/135.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax4 {
-  background: url('./img/work/88.jpg');
+  background: url('../img/work/88.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax5 {
-  background: url('./img/work/141.jpg');
+  background: url('../img/work/141.jpg');
   min-height: 60vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax6 {
-  background: url('./img/work/51.jpg');
+  background: url('../img/work/51.jpg');
   min-height: 60vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax7 {
-  background: url('./img/work/132.jpg');
+  background: url('../img/work/132.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax8 {
-  background: url('./img/work/115.jpg');
+  background: url('../img/work/115.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax9 {
-  background: url('./img/work/138.jpg');
+  background: url('../img/work/138.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax10 {
-  background: url('./img/work/100.jpg');
+  background: url('../img/work/100.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax11 {
-  background: url('./img/work/140.jpg');
+  background: url('../img/work/140.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
 
 .parallax12 {
-  background: url('./img/work/70.jpg');
+  background: url('../img/work/70.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
@@ -530,91 +530,91 @@ section {
 @media only screen and (max-width: 812px) and (min-width: 360px) {
 
   .homepage {
-    background: url('./img/work/48.jpg');
+    background: url('../img/work/48.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
   }
 
   .parallax1 {
-    background: url('./img/work/131.jpg');
+    background: url('../img/work/131.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax2 {
-  background: url('./img/work/64.jpg');
+  background: url('../img/work/64.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
   }
   
   .parallax3 {
-    background: url('./img/work/135.jpg');
+    background: url('../img/work/135.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax4 {
-    background: url('./img/work/88.jpg');
+    background: url('../img/work/88.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax5 {
-    background: url('./img/work/141.jpg');
+    background: url('../img/work/141.jpg');
     min-height: 60vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax6 {
-    background: url('./img/work/51.jpg');
+    background: url('../img/work/51.jpg');
     min-height: 60vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax7 {
-    background: url('./img/work/132.jpg');
+    background: url('../img/work/132.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax8 {
-    background: url('./img/work/115.jpg');
+    background: url('../img/work/115.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax9 {
-    background: url('./img/work/138.jpg');
+    background: url('../img/work/138.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax10 {
-    background: url('./img/work/100.jpg');
+    background: url('../img/work/100.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax11 {
-    background: url('./img/work/140.jpg');
+    background: url('../img/work/140.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
   }
   
   .parallax12 {
-    background: url('./img/work/70.jpg');
+    background: url('../img/work/70.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;

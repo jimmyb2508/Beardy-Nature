@@ -213,7 +213,7 @@ html {
 @media screen and (max-width: 600px) {
   .image-gallery {
     grid-template-areas: 
-
+    ;
   }
 
   .image-gallery a,
@@ -250,6 +250,18 @@ html {
 }
 
 .pagination a:hover:not(.active) {color:#BA5000;}
+
+@media screen and (max-width: 600px) {
+  .pagination a {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color:#540606;;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+}
 
 /**** Footer BEGINS ****/
 

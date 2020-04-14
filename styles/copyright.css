@@ -140,98 +140,6 @@ body, html {
   color: black;
 }
 
-.parallax1 {
-  background: url('../img/work/131.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax2 {
-background: url('../img/work/64.jpg');
-min-height: 100vh;
-background-size: cover;
-background-position: center;
-}
-
-.parallax3 {
-  background: url('../img/work/135.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax4 {
-  background: url('../img/work/88.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax5 {
-  background: url('../img/work/141.jpg');
-  min-height: 60vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax6 {
-  background: url('../img/work/51.jpg');
-  min-height: 60vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax7 {
-  background: url('../img/work/132.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax8 {
-  background: url('../img/work/115.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax9 {
-  background: url('../img/work/138.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax10 {
-  background: url('../img/work/100.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax11 {
-  background: url('../img/work/140.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax12 {
-  background: url('../img/work/70.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .heading {
   position: absolute;
   color: #ffffff;
@@ -260,29 +168,10 @@ background-position: center;
 
 /* About */
 
-.aboutpic {
-  padding-top: 30px;
+.copyrightpic {
+  padding-top: 0px;
   width: 480px;
-  height: 380px;
-}
-
-.aboutpictwo {
-  width: 400px;
-  height: 410px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-.aboutpicthree {
-  width: 500px;
   height: 100%;
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
-
-.signature {
-  margin-top: 50px;
-  width: 300px;
 }
 
 .two-col {
@@ -291,7 +180,8 @@ background-position: center;
   padding: 0 7%;
   text-align: left;
   font-family:'Open Sans', sans-serif;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .two-col h1 {
@@ -529,103 +419,6 @@ section {
 
 @media only screen and (max-width: 812px) and (min-width: 360px) {
 
-  .homepage {
-    background: url('../img/work/48.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
-
-  .parallax1 {
-    background: url('../img/work/131.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax2 {
-  background: url('../img/work/64.jpg');
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-  }
-  
-  .parallax3 {
-    background: url('../img/work/135.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax4 {
-    background: url('../img/work/88.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax5 {
-    background: url('../img/work/141.jpg');
-    min-height: 60vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax6 {
-    background: url('../img/work/51.jpg');
-    min-height: 60vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax7 {
-    background: url('../img/work/132.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax8 {
-    background: url('../img/work/115.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax9 {
-    background: url('../img/work/138.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax10 {
-    background: url('../img/work/100.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax11 {
-    background: url('../img/work/140.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax12 {
-    background: url('../img/work/70.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 
   .heading {
     font-size: 250%;
@@ -644,29 +437,12 @@ section {
     display: inline-block;
     text-align: center;
   }
-  .aboutpic {
-    margin-top: 20px;
+  .copyrightpic {
+    margin-top: 0px;
     width: 270px;
     height: 100%;
     text-align: center;
     padding-right: 5px;
-  }
-
-  .aboutpictwo {
-    margin-top: 20px;
-    width: 250px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .aboutpicthree {
-    width: 250px;
-    height: 100%;
-  }
-
-  .signature {
-    margin-top: 50px;
-    width: 250px;
   }
 }
 
@@ -675,69 +451,19 @@ section {
 
 @media only screen and (max-width: 1025px) and (min-width: 900px) and (orientation: landscape) {
 
-  .aboutpic {
+  .copyrightpic {
     margin-top: 100px;
     width: 400px;
     height: 100%;
     text-align: center;
-  }
-
-  .aboutpictwo {
-    margin-top: 100px;
-    width: 400px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .aboutpicthree {
-    margin-top: 140px;
-    width: 420px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .signature {
-    margin-top: 50px;
-    width: 300px;
-  }
-
-  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-@media only screen and (max-width: 1025px) and (min-width: 900px) and (orientation: portrait) {
-
-  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 }
 
 
 @media only screen and (max-width: 1025px) and (min-width: 900px) and (orientation: portrait) {
   
-  .aboutpic {
+  .copyrightpic {
     margin-top: 200px;
-    width: 300px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .aboutpictwo {
-    margin-top: 300px;
-    width: 300px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .aboutpicthree {
-    margin-top: 250px;
     width: 300px;
     height: 100%;
     text-align: center;
@@ -748,30 +474,11 @@ section {
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) and (orientation: landscape) {
   
-  .aboutpic {
+  .copyrightpic {
     margin-top: 50px;
     width: 400px;
     height: 100%;
     text-align: center;
-  }
-
-  .aboutpictwo {
-    margin-top: 10px;
-    width: 400px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .aboutpicthree {
-    margin-top: 70px;
-    width: 420px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .signature {
-    margin-top: 50px;
-    width: 300px;
   }
 }
 

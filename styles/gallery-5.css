@@ -150,7 +150,18 @@ html {
   grid-template-rows: auto;
   grid-gap: 1.0rem;
   grid-template-areas: 
-
+  'img-129 img-130 img-131 img-131'
+  'img-129 img-132 img-133 img-134'
+  'img-135 img-135 img-136 img-134'
+  'img-137 img-138 img-139 img-139'
+  'img-137 img-140 img-141 img-142'
+  'img-143 img-143 img-144 img-142'
+  'img-145 img-146 img-147 img-147'
+  'img-145 img-148 img-149 img-150'
+  'img-151 img-151 img-152 img-150'
+  'img-153 img-154 img-155 img-155'
+  'img-153 img-156 img-157 img-158'
+  'img-159 img-159 img-160 img-158';
 }
 
 .image-gallery a {
@@ -195,29 +206,286 @@ html {
   opacity: 1;
 }
 
+.img-129 {
+  grid-area: img-129;
+  min-height: 51.5rem;
+  background-image: url("../img/work/129.jpg");
+}
+
+.img-130 {
+  grid-area: img-130;
+  background-image: url("../img/work/130.jpg");
+}
+
+.img-131 {
+  grid-area: img-131;
+  background-image: url("../img/work/131.jpg");
+}
+
+.img-132 {
+  grid-area: img-132;
+  background-image: url("../img/work/132.jpg");
+}
+
+.img-133 {
+  grid-area: img-133;
+  background-image: url("../img/work/133.jpg");
+}
+
+.img-134 {
+  grid-area: img-134;
+  min-height: 51.5rem;
+  background-image: url("../img/work/134.jpg");
+}
+
+.img-135 {
+  grid-area: img-135;
+  background-image: url("../img/work/135.jpg");
+}
+
+.img-136 {
+  grid-area: img-136;
+  background-image: url("../img/work/136.jpg");
+}
+
+.img-137 {
+  grid-area: img-137;
+  min-height: 51.5rem;
+  background-image: url("../img/work/137.jpg");
+}
+
+.img-138 {
+  grid-area: img-138;
+  background-image: url("../img/work/138.jpg");
+}
+
+.img-139 {
+  grid-area: img-139;
+  background-image: url("../img/work/139.jpg");
+}
+
+.img-140 {
+  grid-area: img-140;
+  background-image: url("../img/work/140.jpg");
+}
+
+.img-141 {
+  grid-area: img-141;
+  background-image: url("../img/work/141.jpg");
+}
+
+.img-142 {
+  grid-area: img-142;
+  min-height: 51.5rem;
+  background-image: url("../img/work/142.jpg");
+}
+
+.img-143 {
+  grid-area: img-143;
+  background-image: url("../img/work/143.jpg");
+}
+
+.img-144 {
+  grid-area: img-144;
+  background-image: url("../img/work/144.jpg");
+}
+
+.img-145 {
+  grid-area: img-145;
+  min-height: 51.5rem;
+  background-image: url("../img/work/145.jpg");
+}
+
+.img-146 {
+  grid-area: img-146;
+  background-image: url("../img/work/146.jpg");
+}
+
+.img-147 {
+  grid-area: img-147;
+  background-image: url("../img/work/147.jpg");
+}
+
+.img-148 {
+  grid-area: img-148;
+  background-image: url("../img/work/148.jpg");
+}
+
+.img-149 {
+  grid-area: img-149;
+  background-image: url("../img/work/149.jpg");
+}
+
+.img-150 {
+  grid-area: img-150;
+  min-height: 51.5rem;
+  background-image: url("../img/work/150.jpg");
+}
+
+.img-151 {
+  grid-area: img-151;
+  background-image: url("../img/work/151.jpg");
+}
+
+.img-152 {
+  grid-area: img-152;
+  background-image: url("../img/work/152.jpg");
+}
+
+.img-153 {
+  grid-area: img-153;
+  min-height: 51.5rem;
+  background-image: url("../img/work/153.jpg");
+}
+
+.img-154 {
+  grid-area: img-154;
+  background-image: url("../img/work/154.jpg");
+}
+
+.img-155 {
+  grid-area: img-155;
+  background-image: url("../img/work/155.jpg");
+}
+
+.img-156 {
+  grid-area: img-156;
+  background-image: url("../img/work/156.jpg");
+}
+
+.img-157 {
+  grid-area: img-157;
+  background-image: url("../img/work/157.jpg");
+}
+
+.img-158 {
+  grid-area: img-158;
+  min-height: 51.5rem;
+  background-image: url("../img/work/158.jpg");
+}
+
+.img-159 {
+  grid-area: img-159;
+  background-image: url("../img/work/159.jpg");
+}
+
+.img-160 {
+  grid-area: img-160;
+  background-image: url("../img/work/160.jpg");
+}
 
 
 @media screen and (max-width: 900px) {
   .image-gallery {
     grid-template-areas: 
-
+    'img-129 img-129 img-130 img-130'
+    'img-129 img-129 img-131 img-131'
+    'img-132 img-132 img-133 img-133'
+    'img-134 img-135 img-135 img-135'
+    'img-136 img-136 img-136 img-136'
+    'img-137 img-137 img-138 img-138'
+    'img-137 img-137 img-139 img-139'
+    'img-140 img-140 img-141 img-141'
+    'img-142 img-143 img-143 img-143'
+    'img-144 img-144 img-144 img-144'
+    'img-145 img-145 img-146 img-146'
+    'img-145 img-145 img-147 img-147'
+    'img-148 img-148 img-149 img-149'
+    'img-150 img-151 img-151 img-151'
+    'img-152 img-152 img-152 img-152'
+    'img-153 img-153 img-154 img-154'
+    'img-153 img-153 img-155 img-155'
+    'img-156 img-156 img-157 img-157'
+    'img-158 img-159 img-159 img-159'
+    'img-160 img-160 img-160 img-160'
+    ;
   }
 
   .image-gallery a{
     height: 20rem;
   }
 
-  
+  .img-129{
+    min-height: 41.5rem;
+  }
+
+  .img-134{
+    min-height: 20rem;
+  }
+
+  .img-137{
+    min-height: 41.5rem;
+  }
+
+  .img-142{
+    min-height: 20rem;
+  }
+
+  .img-145{
+    min-height: 41.5rem;
+  }
+
+  .img-150{
+    min-height: 20rem;
+  }
+
+  .img-153{
+    min-height: 41.5rem;
+  }
+
+  .img-157{
+    min-height: 20rem;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
   .image-gallery {
     grid-template-areas: 
-
+    'img-129 img-129 img-129 img-129'
+    'img-130 img-130 img-130 img-130'
+    'img-131 img-131 img-131 img-131'
+    'img-132 img-132 img-132 img-132'
+    'img-133 img-133 img-133 img-133'
+    'img-134 img-134 img-134 img-134'
+    'img-135 img-135 img-135 img-135'
+    'img-136 img-136 img-136 img-136'
+    'img-137 img-137 img-137 img-137'
+    'img-138 img-138 img-138 img-138'
+    'img-139 img-139 img-139 img-139'
+    'img-140 img-140 img-140 img-140'
+    'img-141 img-141 img-141 img-141'
+    'img-142 img-142 img-142 img-142'
+    'img-143 img-143 img-143 img-143'
+    'img-144 img-144 img-144 img-144'
+    'img-145 img-145 img-145 img-145'
+    'img-146 img-146 img-146 img-146'
+    'img-147 img-147 img-147 img-147'
+    'img-148 img-148 img-148 img-148'
+    'img-149 img-149 img-149 img-149'
+    'img-150 img-150 img-150 img-150'
+    'img-151 img-151 img-151 img-151'
+    'img-152 img-152 img-152 img-152'
+    'img-153 img-153 img-153 img-153'
+    'img-154 img-154 img-154 img-154'
+    'img-155 img-155 img-155 img-155'
+    'img-156 img-156 img-156 img-156'
+    'img-157 img-157 img-157 img-157'
+    'img-158 img-158 img-158 img-158'
+    'img-159 img-159 img-159 img-159'
+    'img-160 img-160 img-160 img-160'
+    ;
   }
 
   .image-gallery a,
-  {
+  .img-129,
+  img-134,
+  .img-137,
+  img-142,
+  .img-145,
+  img-150,
+  .img-153,
+  img-157{
     min-height: 30rem;
     height: 30rem;
   }
@@ -226,6 +494,8 @@ html {
 /**** Pagination ****/
 
 .page-container{
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 }
 

@@ -388,18 +388,6 @@ section {
   font-family: 'Open Sans', sans-serif;
 }
 
-.footer-bottom {
-  color: #ffffff;
-  background-color:#18181a;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-}
-
-.footer-bottom, .footer-bottom:visited, .footer-bottom:hover, .footer-bottom:active {
-  color: #BA5000;
-}
-
-
 @media(max-width: 800px) {
   .footer .inner_footer {
     width: 90%;

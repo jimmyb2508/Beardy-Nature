@@ -153,15 +153,15 @@ html {
   'img-65 img-66 img-67 img-67'
   'img-65 img-68 img-69 img-70'
   'img-71 img-71 img-72 img-70'
-  'img-73 img-74 img-75 img-75'
-  'img-73 img-76 img-77 img-78'
+  'img-73 img-76 img-75 img-75'
+  'img-74 img-76 img-77 img-78'
   'img-79 img-79 img-80 img-78'
   'img-81 img-82 img-83 img-83'
   'img-81 img-84 img-85 img-86'
   'img-87 img-87 img-88 img-86'
   'img-89 img-90 img-91 img-91'
-  'img-89 img-92 img-93 img-94'
-  'img-95 img-95 img-96 img-94';
+  'img-89 img-92 img-93 img-95'
+  'img-94 img-94 img-96 img-95';
 }
 
 .image-gallery a {
@@ -250,7 +250,6 @@ html {
 
 .img-73 {
   grid-area: img-73;
-  min-height: 51.5rem;
   background-image: url("../img/work/73.jpg");
 }
 
@@ -266,6 +265,7 @@ html {
 
 .img-76 {
   grid-area: img-76;
+  min-height: 51.5rem;
   background-image: url("../img/work/76.jpg");
 }
 
@@ -360,12 +360,12 @@ html {
 
 .img-94 {
   grid-area: img-94;
-  min-height: 51.5rem;
   background-image: url("../img/work/94.jpg");
 }
 
 .img-95 {
   grid-area: img-95;
+  min-height: 51.5rem;
   background-image: url("../img/work/95.jpg");
 }
 

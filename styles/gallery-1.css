@@ -159,10 +159,10 @@ html {
   'img-15 img-15 img-16 img-14'
   'img-17 img-18 img-19 img-19'
   'img-17 img-20 img-21 img-22'
-  'img-23 img-23 img-24 img-22'
+  'img-25 img-23 img-24 img-22'
   'img-25 img-26 img-27 img-27'
-  'img-25 img-28 img-29 img-30'
-  'img-31 img-31 img-32 img-30';
+  'img-31 img-28 img-29 img-30'
+  'img-32 img-32 img-29 img-30';
 }
 
 .image-gallery a {
@@ -356,6 +356,7 @@ html {
 
 .img-29 {
   grid-area: img-29;
+  min-height: 51.5rem;
   background-image: url("../img/work/29.jpg");
 }
 
@@ -367,6 +368,7 @@ html {
 
 .img-31 {
   grid-area: img-31;
+  height: 35px;
   background-image: url("../img/work/31.jpg");
 }
 

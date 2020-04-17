@@ -437,6 +437,10 @@ html {
     min-height: 20rem;
   }
 
+  .img-159{
+    min-height: 51.5rem;
+  }
+
 }
 
 @media screen and (max-width: 600px) {

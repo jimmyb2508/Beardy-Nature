@@ -433,7 +433,15 @@ html {
   }
 
   .img-25{
+    min-height: 62.5rem;
+  }
+
+  .img-27{
     min-height: 41.5rem;
+  }
+
+  .img-29{
+    min-height: 0rem;
   }
 
   .img-30{

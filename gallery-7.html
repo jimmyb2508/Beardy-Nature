@@ -58,23 +58,45 @@
     <div class="inner_footer">
       <div class="logo_container">
         <img src="img/logo/Logo12.png" class="logofooter">
+        <br>
+        <a href="copyright.html">Copyright © </a>
       </div>
-
-      <div class="footer_third">
-        <h1>Need Help?</h1>
-        <a href="#">Terms &amp; Conditions</a>
-        <a href="#">Privacy Policy</a>
-      </div>
-
-      <div class="footer_third">
+      <div class="footer_third2">
         <h1>Contact</h1>
-        <a name="contact"></a>
-          <li><a><i class="fa fa-mobile fa-3x"></i> 123-456-789</a></li>
-          <br>
-          <li><a><i class="fa fa-envelope fa-2x"></i> info@beardynature.co.uk</a></li>
+        <div class="form-container">
+          <form id="contact-form">
+            <input type="hidden" name="contact_number">
+              <div class="row">
+                <div class="col-25">
+                  <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" name="user_name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" name="user_email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="message" name="message" style="height:100px"></textarea>
+                </div>
+              </div>
+              <div class="rowbutton">
+                <input type="submit" value="Send">
+              </div>
+          </form>
+        </div>
       </div>
-
-      <div class="footer_third">
+      <div class="footer_third1">
         <h1>Social</h1>
           <a name="social"></a>
             <li><a href="https://www.facebook.com/BeardyNature"><i class="fa fa-facebook fa-2x"></i></a></li>
@@ -83,7 +105,7 @@
             <li><a href="https://www.flickr.com/photos/cansmithpics/"><i class="fa fa-flickr fa-2x"></i></a></li>
       </div>
     </div>
-  </div>
+  </div> 
   <div class="credits">
     Web Development by<a href="https://jimmyb2508.github.io/Portfolio-2.0/"> jamesbarringtonsoftware.com &copy;</a> | Artwork by <a href="http://www.pjrenniedesign.co.uk/">pjrenniedesign.co.uk &copy;</a>
   </div>

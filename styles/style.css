@@ -189,7 +189,7 @@ background-position: center;
 
 .parallax7 {
   background: url('../img/work/132.jpg');
-  min-height: 100vh;
+  min-height: 60vh;
   background-size: cover;
   background-position: center;
 }
@@ -228,6 +228,8 @@ background-position: center;
   background-size: cover;
   background-position: center;
 }
+
+
 
 .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12 {
   position: relative;

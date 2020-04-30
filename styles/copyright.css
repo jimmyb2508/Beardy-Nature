@@ -19,10 +19,15 @@ nav {
 }
 
 label.logo {
-  line-height: 106px;
+  line-height: 80px;
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bold;
+  display: inline-block;
+}
+
+label.checkbtn {
+  line-height: 55px;
 }
 
 nav ul {
@@ -67,12 +72,13 @@ a.active,a:hover {
 
 @media (max-width: 952px){
   label.logo{
-    width: 40px;
-    line-height: 105px;
-    height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
+  label.logo-title{
+    padding-left: 10px;
+    padding-right: 0px;
   }
 
   nav ul li a {
